@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6254E924701D110017965E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6254E824701D110017965E /* AppDelegate.swift */; };
+		3B6254ED24701D110017965E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6254EC24701D110017965E /* ViewController.swift */; };
+		3B6254F224701D140017965E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6254F124701D140017965E /* Assets.xcassets */; };
+		3B6254F524701D140017965E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6254F324701D140017965E /* LaunchScreen.storyboard */; };
+		3B6254FF247037AA0017965E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6254FE247037AA0017965E /* Main.storyboard */; };
+		3BA2328924741E8F00A02857 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA2328824741E8F00A02857 /* BlurView.swift */; };
+		3BA2328F24750D8400A02857 /* Model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3BA2328E24750D8400A02857 /* Model.mlmodel */; };
+		462281BCFD844E8CFB6B200B /* libPods-BlurFace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7756A1DC37EB213E4B34A373 /* libPods-BlurFace.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		149F3B2A839860C793C91594 /* Pods-BlurFace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlurFace.release.xcconfig"; path = "Target Support Files/Pods-BlurFace/Pods-BlurFace.release.xcconfig"; sourceTree = "<group>"; };
+		3579B6E46CA798EC316FE4CB /* Pods-BlurFace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlurFace.debug.xcconfig"; path = "Target Support Files/Pods-BlurFace/Pods-BlurFace.debug.xcconfig"; sourceTree = "<group>"; };
+		3B6254E524701D110017965E /* BlurFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6254E824701D110017965E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B6254EC24701D110017965E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B6254F124701D140017965E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B6254F424701D140017965E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B6254F624701D140017965E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6254FE247037AA0017965E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3BA2328824741E8F00A02857 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		3BA2328E24750D8400A02857 /* Model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Model.mlmodel; sourceTree = "<group>"; };
+		7756A1DC37EB213E4B34A373 /* libPods-BlurFace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlurFace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B6254E224701D110017965E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462281BCFD844E8CFB6B200B /* libPods-BlurFace.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B6254DC24701D110017965E = {
+			isa = PBXGroup;
+			children = (
+				3B6254E724701D110017965E /* BlurFace */,
+				3B6254E624701D110017965E /* Products */,
+				C95957EFF41A18C41CF82433 /* Pods */,
+				82B906498E20BC8AED6502EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B6254E624701D110017965E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B6254E524701D110017965E /* BlurFace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6254E724701D110017965E /* BlurFace */ = {
+			isa = PBXGroup;
+			children = (
+				3BA2328E24750D8400A02857 /* Model.mlmodel */,
+				3B6254E824701D110017965E /* AppDelegate.swift */,
+				3B6254EC24701D110017965E /* ViewController.swift */,
+				3BA2328824741E8F00A02857 /* BlurView.swift */,
+				3B6254F124701D140017965E /* Assets.xcassets */,
+				3B6254F324701D140017965E /* LaunchScreen.storyboard */,
+				3B6254F624701D140017965E /* Info.plist */,
+				3B6254FE247037AA0017965E /* Main.storyboard */,
+			);
+			path = BlurFace;
+			sourceTree = "<group>";
+		};
+		82B906498E20BC8AED6502EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7756A1DC37EB213E4B34A373 /* libPods-BlurFace.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C95957EFF41A18C41CF82433 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3579B6E46CA798EC316FE4CB /* Pods-BlurFace.debug.xcconfig */,
+				149F3B2A839860C793C91594 /* Pods-BlurFace.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B6254E424701D110017965E /* BlurFace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6254F924701D140017965E /* Build configuration list for PBXNativeTarget "BlurFace" */;
+			buildPhases = (
+				23735A477B67663DE4DBA7CB /* [CP] Check Pods Manifest.lock */,
+				3B6254E124701D110017965E /* Sources */,
+				3B6254E224701D110017965E /* Frameworks */,
+				3B6254E324701D110017965E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurFace;
+			productName = BlurFace;
+			productReference = 3B6254E524701D110017965E /* BlurFace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B6254DD24701D110017965E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "artyom korotkov";
+				TargetAttributes = {
+					3B6254E424701D110017965E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B6254E024701D110017965E /* Build configuration list for PBXProject "BlurFace" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B6254DC24701D110017965E;
+			productRefGroup = 3B6254E624701D110017965E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B6254E424701D110017965E /* BlurFace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B6254E324701D110017965E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6254FF247037AA0017965E /* Main.storyboard in Resources */,
+				3B6254F524701D140017965E /* LaunchScreen.storyboard in Resources */,
+				3B6254F224701D140017965E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23735A477B67663DE4DBA7CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlurFace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B6254E124701D110017965E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA2328924741E8F00A02857 /* BlurView.swift in Sources */,
+				3B6254ED24701D110017965E /* ViewController.swift in Sources */,
+				3BA2328F24750D8400A02857 /* Model.mlmodel in Sources */,
+				3B6254E924701D110017965E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B6254F324701D140017965E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B6254F424701D140017965E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B6254F724701D140017965E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B6254F824701D140017965E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B6254FA24701D140017965E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3579B6E46CA798EC316FE4CB /* Pods-BlurFace.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPC5P3JQ8K;
+				INFOPLIST_FILE = BlurFace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.korotkov.artyline.BlurFace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B6254FB24701D140017965E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149F3B2A839860C793C91594 /* Pods-BlurFace.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPC5P3JQ8K;
+				INFOPLIST_FILE = BlurFace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.korotkov.artyline.BlurFace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B6254E024701D110017965E /* Build configuration list for PBXProject "BlurFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6254F724701D140017965E /* Debug */,
+				3B6254F824701D140017965E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6254F924701D140017965E /* Build configuration list for PBXNativeTarget "BlurFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6254FA24701D140017965E /* Debug */,
+				3B6254FB24701D140017965E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B6254DD24701D110017965E /* Project object */;
+}

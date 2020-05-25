@@ -1,0 +1,6 @@
+module Pods_BlurFace {
+  umbrella header "Pods-BlurFace-umbrella.h"
+
+  export *
+  module * { export * }
+}
