@@ -16,7 +16,7 @@ Is an iOS project example that can be used to run your own CoreML Object Detecti
 With MakeML you can prepare dataset and train Object Detection CoreML model with Turi Create frameworks in one application.
 
 <div align="center">
-<img src="images/cutlery_classification.gif">
+<img src="images/face_anonymizer_example.gif">
 </div>
 
 ## Using another .mlmodel in iOS application
